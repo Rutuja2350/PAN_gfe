@@ -1,0 +1,56 @@
+.about {
+    overflow-y: scroll;
+    padding-bottom: 6rem;
+}
+
+.about_heading {
+    justify-self: center;
+    padding-top: 6rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    width: 100vh;
+    overflow-x: hidden;
+    height: fit-content;
+    color: #c73d3d;
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.about_content {
+    /* height: 100%; */
+    padding-top: 5rem;
+}
+
+.about_img {
+    padding-left: 4rem;
+}
+
+.about_img>img {
+    border-radius: 15%;
+}
+
+.about_points {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+@keyframes abtSlideIn {
+    from {
+        transform: translateX(30%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+}
+
+.abt-slide-text {
+    font-size: 3.5rem;
+    font-weight: 600;
+    display: inline-block;
+    animation: abtSlideIn 1.4s ease-out forwards;
+    position: relative;
+}

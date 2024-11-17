@@ -1,0 +1,29 @@
+.navbar-header {
+    background-color: #375446;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 8px #375446;
+}
+
+.navbar-nav {
+    --bs-navbar-active-color: #C97575 !important;
+    --bs-nav-link-color: white !important;
+    --bs-nav-link-hover-color: #C97575 !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar>.container {
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.active-nav-link {
+    color: rgb(201, 117, 117) !important;
+}

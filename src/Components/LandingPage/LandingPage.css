@@ -1,0 +1,15 @@
+.landing {
+    background-image: url('../../public/leaves_bg.png');
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.btn_landing {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn_landing:hover {
+    transform: scale(1.2);
+}
