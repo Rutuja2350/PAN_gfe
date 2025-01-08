@@ -1,31 +1,39 @@
-.commitment {
+.homepage_commitment {
+    background-color: #99A751;
+    padding-left: 10rem;
+    padding-right: 10rem;
     height: 100vh;
     overflow-y: hidden;
 }
 
-.commitment_head_div {
-    padding-top: 5rem;
+.commitment {
+    background-color: black;
+    padding-top: 7rem;
+    font-size: 1.4rem;
+    color: white;
+    height: 100vh;
 }
 
 .commitment_heading {
+    font-size: 4.5rem;
     justify-self: center;
-    padding: 2rem;
-    padding-top: 6rem;
-    font-size: 3.5rem;
-    font-weight: 600;
-    color: #c73d3d;
-    font-family: "Roboto Condensed", sans-serif !important;
 }
 
 .commitment_content {
-    padding: 5rem;
-    font-size: 1.5rem;
-    font-weight: 500;
+    margin-left: 3rem;
 }
 
-.commitment_image {
-    height: 15rem;
+.commitment_points {
+    padding-left: 5rem;
     padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.bluegreen_leaf {
+    height: 25rem;
+    padding-right: 5rem;
 }
 
 @keyframes comSlideIn {

@@ -1,25 +1,25 @@
-.contact {
-    padding: 2rem;
-    padding-bottom: 7rem;
+.homepage_contact {
+    background-color: #938A9E;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    /* padding-top: 4rem; */
     height: 100vh;
-    overflow-y: scroll !important;
+    overflow-y: scroll;
+
+}
+
+.contact {
+    background-color: black;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    color: white;
 }
 
 .contact_heading {
-    justify-self: center;
-    padding: 2rem;
-    padding-top: 6rem;
-    font-size: 3.5rem;
-    font-weight: 600;
-    color: #c73d3d;
-    font-family: "Roboto Condensed", sans-serif !important;
-}
+    font-size: 7rem;
+    margin-right: 10rem;
+    margin-left: 8rem;
 
-.key_heading {
-    font-size: 3.5rem;
-    font-weight: 600;
-    color: #c73d3d;
-    font-family: "Roboto Condensed", sans-serif !important;
 }
 
 .contact_info {
@@ -27,18 +27,31 @@
     justify-self: center;
 }
 
+.right_content {
+    font-size: 1.2rem;
+}
+
+.key_leaf {
+    height: 18rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.heading_key {
+    font-size: 5rem;
+    justify-self: self-start;
+    padding-top: 7rem;
+}
+
 .card_title {
     font-size: 2rem !important;
 }
 
 .card_body {
-    background-color: #375446 !important;
+    background-color: black !important;
     color: white !important;
     width: 30rem;
-}
-
-.phone {
-    height: 20rem;
+    justify-self: center
 }
 
 @keyframes contSlideIn {

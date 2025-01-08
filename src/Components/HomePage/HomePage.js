@@ -18,20 +18,15 @@ const HomePage = () => {
 
     return (
         <div>
-            <div>
-                <Header activeSection={activeSection} onNavClick={handleNavClick} />
-            </div>
-            {/* <div className={activeSection ? 'page' : 'home_page'}> */}
-            <div className="page">
-                {/* {activeSection === 'Home' && <Home />} */}
-                {activeSection === 'WhatWeDo' && <WhatWeDo />}
-                {activeSection === 'AboutUs' && <AboutUs />}
-                {activeSection === 'Associates' && <Associates />}
-                {activeSection === 'Commitment' && <Commitment />}
-                {activeSection === 'ContactUs' && <ContactUs />}
-                {activeSection === 'Experience' && <Experience />}
-                {activeSection === 'Expertise' && <Expertise />}
-            </div>
+            <Header activeSection={activeSection} onNavClick={handleNavClick} />
+            {/* {activeSection === 'Home' && <Home />} */}
+            {activeSection === 'WhatWeDo' && <WhatWeDo />}
+            {activeSection === 'AboutUs' && <AboutUs />}
+            {activeSection === 'Associates' && <Associates />}
+            {activeSection === 'Commitment' && <Commitment />}
+            {activeSection === 'ContactUs' && <ContactUs />}
+            {activeSection === 'Experience' && <Experience />}
+            {activeSection === 'Expertise' && <Expertise />}
         </div>
     )
 }

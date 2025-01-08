@@ -1,18 +1,19 @@
 import React from 'react';
 import './AboutUs.css';
-import aboutbg from '../../../public/aboutgif.gif';
+import pink_leaf from '../../../public/pink_leaf.png';
 
 const AboutUs = () => {
     return (
-        <div className='about h-screen'>
-            <h1 className='about_heading abt-slide-text'>
-                About Us
-            </h1>
-            <div className='grid grid-rows-1 grid-flow-col about_content'>
-                <div className='about_img place-self-center'>
-                    <img src={aboutbg} alt='' className='fade-in-out' />
+        <div className='homepage_about h-screen'>
+            <div className='about grid grid-rows-1 grid-flow-col about_content'>
+                <div className='left_column'>
+                    <h1 className='about_heading'>
+                        About <br />
+                        <center>Us</center>
+                    </h1>
+                    <img src={pink_leaf} alt='' className='pink_leaf' />
                 </div>
-                <div className='about_points place-self-center fade-in-out'>
+                <div className='right_column place-self-start'>
                     <ul>
                         <li>
                             We are in Environmental Consultancy services since 2018.

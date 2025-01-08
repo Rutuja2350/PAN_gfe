@@ -8,9 +8,9 @@ const Header = ({ activeSection, onNavClick }) => {
     return (
         <Navbar collapseOnSelect expand="lg" id="navbar" className="navbar-header">
             <Container className="nav-container">
-                <Navbar.Brand href="\">PAN</Navbar.Brand>
+                {/* <Navbar.Brand href="\">PAN</Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                <Navbar.Collapse id="responsive-navbar-nav" className="">
                     <Nav className="space-x-12">
                         <Nav.Link
                             onClick={() => onNavClick('WhatWeDo')}

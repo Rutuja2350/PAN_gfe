@@ -1,46 +1,41 @@
 import React from 'react';
 import './ContactUs.css';
-import point_down from '../../../public/point_down.png';
-import phone from '../../../public/phone.gif';
+import leave_key from '../../../public/leave_key.png';
 import Card from 'react-bootstrap/Card';
 
 const ContactUs = () => {
     return (
-        <div className='contact grid grid-row-4'>
-            <div className='contact_heading cont-slide-text'>
-                Feel Free to Contact Us On
-            </div>
-            <div className='grid grid-rows-2 grid-flow-col justify-items-center text-xl'>
-                <div className='row-span-2 fade-in-out'>
-                    <p>
-                        <b>Mobile no. : </b> <br />
-                        +91-95940-76605 ( Pradnya Niphade ) <br />
-                        +91-99704-05605 ( Surekha Kadam ) <br />
-                        +91-70283-92775 ( Vijaya Jagtap ) <br /><br />
-                        <b>Timing :</b><br />
-                        10 am to 6 pm <br /><br />
-                        <b>Email : <br />
-                        </b>pangreenfieldenviro@gmail.com <b> / </b> bagul_pradnya@rediffmail.com <br /><br />
-                        <b>For account & billing related :</b><br />
-                        Mrs. Prajakta Waje <br />
-                        panenviroacc@gmail.com <br />
-                        +91-97020-30669 <br /><br />
-                    </p>
+        <div className='homepage_contact'>
+            <div className='contact grid grid-row-3 grid-col-flow'>
+                <div className='grid grid-rows-1 grid-flow-col'>
+                    <div className='contact_heading justify-self-center'>
+                        Contact <br />
+                        <center>Us</center>
+                    </div>
+                    {/* <div className='grid grid-rows-2 grid-flow-col justify-items-center text-xl'> */}
+                    <div className='right_content'>
+                        <p>
+                            <b>Mobile no. : </b> <br />
+                            +91-95940-76605 ( Pradnya Niphade ) <br />
+                            +91-99704-05605 ( Surekha Kadam ) <br />
+                            +91-70283-92775 ( Vijaya Jagtap ) <br /><br />
+                            <b>Timing :</b><br />
+                            10 am to 6 pm <br /><br />
+                            <b>Email : <br />
+                            </b>pangreenfieldenviro@gmail.com <b> / </b> bagul_pradnya@rediffmail.com <br /><br />
+                            <b>For account & billing related :</b><br />
+                            Mrs. Prajakta Waje <br />
+                            panenviroacc@gmail.com <br />
+                            +91-97020-30669 <br /><br />
+                        </p>
+                    </div>
                 </div>
-                <div className='row-span-2'>
-                    <img src={phone} alt='' className='phone justify-self-center pt-5' />
+                <div className='grid grid-rows-1 grid-flow-col'>
+                    <img src={leave_key} alt='' className='justify-self-center key_leaf' />
+                    <h1 className='justify-self-center pt-10 heading_key'>Key Person</h1>
                 </div>
-            </div>
-            <hr />
-            <div>
-                <h1 className='justify-self-center pt-10 key_heading'>Our Key Person</h1>
-            </div>
-            <div>
-                <img src={point_down} alt='' className='justify-self-center' />
-            </div>
-            <div className='grid grid-rows-2 grid-flow-col justify-items-center'>
-                <div className='row-span-2'>
-                    {/* <img src={profile} alt='' className='justify-self-center' /> */}
+                <div className='grid grid-rows-1 grid-flow-col'>
+                    {/* <div> */}
                     <Card className='card_body'>
                         <Card.Body>
                             <center><Card.Title className='card_title'>Mrs. Pradnya A Niphade</Card.Title></center>
@@ -56,9 +51,9 @@ const ContactUs = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                </div>
-                <div className='row-span-2'>
-                    {/* <img src={profile} alt='' className='justify-self-center' /> */}
+                    {/* </div> */}
+                    {/* <div> */}
+                    {/* <div> */}
                     <Card className='card_body'>
                         <Card.Body>
                             <center><Card.Title className='card_title'>Mrs. Surekha M Kadam</Card.Title></center>
@@ -74,6 +69,8 @@ const ContactUs = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                    {/* </div> */}
+                    {/* </div> */}
                 </div>
             </div>
         </div>
