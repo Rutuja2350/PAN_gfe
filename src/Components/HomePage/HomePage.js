@@ -16,10 +16,23 @@ const HomePage = () => {
         setActiveSection(section);
     };
 
+    const sectionColors = {
+        Home: 'black',
+        WhatWeDo: '#7496B6',
+        AboutUs: '#C38888',
+        Associates: '#C18C5D',
+        Commitment: '#99A751',
+        ContactUs: '#938A9E',
+        Experience: '#A9ABA6',
+        Expertise: '#97A77E',
+    };
+
     return (
-        <div>
+        <div
+            className="outer_div min-h-screen transition-colors duration-500"
+            style={{ backgroundColor: sectionColors[activeSection] || 'black' }}
+        >
             <Header activeSection={activeSection} onNavClick={handleNavClick} />
-            {/* {activeSection === 'Home' && <Home />} */}
             {activeSection === 'WhatWeDo' && <WhatWeDo />}
             {activeSection === 'AboutUs' && <AboutUs />}
             {activeSection === 'Associates' && <Associates />}
@@ -28,7 +41,7 @@ const HomePage = () => {
             {activeSection === 'Experience' && <Experience />}
             {activeSection === 'Expertise' && <Expertise />}
         </div>
-    )
-}
+    );
+};
 
 export default HomePage;
