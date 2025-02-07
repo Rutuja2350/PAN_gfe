@@ -1,17 +1,10 @@
-/* .homepage_expertise {
-    background-color: #97A77E;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    height: 100vh;
-    overflow-y: hidden;
-} */
-
 .expertise {
     background-color: black;
     padding-top: 10rem;
+    padding-bottom: 4rem;
+    height: 100vh;
     font-size: 1.4rem;
     color: white;
-    height: 100%;
 }
 
 .heading_expertise {
@@ -20,8 +13,6 @@
 }
 
 .grey_leaf {
-    /* height: 120%; */
-    /* padding-top: 34%; */
     padding-left: 25%;
 }
 

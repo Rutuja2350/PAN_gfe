@@ -4,7 +4,7 @@ import pink_leaf from '../../../public/pink_leaf.png';
 
 const AboutUs = () => {
     return (
-        <div className='homepage_about h-screen'>
+        <div className='homepage_about'>
             <div className='about grid grid-rows-1 grid-flow-col about_content'>
                 <div className='left_column'>
                     <h1 className='about_heading'>

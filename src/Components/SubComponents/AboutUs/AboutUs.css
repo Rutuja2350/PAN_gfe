@@ -1,18 +1,10 @@
-/* .homepage_about {
-    background-color: #C38888;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    height: 100vh;
-    overflow-y: hidden;
-} */
-
 .about {
     background-color: black;
     padding-top: 8rem;
     padding-bottom: 4rem;
-    height: 100vh;
     font-size: 1.4rem;
     color: white;
+    height: 100vh;
 }
 
 .about_heading {
@@ -34,20 +26,16 @@
 }
 
 .about_content {
-    /* height: 100%; */
     padding-top: 10rem;
 }
 
 .pink_leaf {
     height: 20rem;
-    /* margin-top: 10rem; */
 }
 
 .about_img>img {
     border-radius: 15%;
 }
-
-
 
 @keyframes abtSlideIn {
     from {

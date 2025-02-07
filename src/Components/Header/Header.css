@@ -1,8 +1,8 @@
 .navbar-header {
     background-color: black;
     font-size: 1.3rem;
-    margin-left: 9.9%;
-    width: 80.3%;
+    width: 80%;
+    padding-left: 5rem !important;
 }
 
 .navbar-nav {
@@ -12,19 +12,15 @@
 }
 
 .navbar-brand {
-    color: white !important;
+    color: rgb(145, 184, 145) !important;
+    font-weight: 600;
+    padding-right: 2rem;
 }
 
 .navbar>.container {
-    padding-left: 7rem;
     padding-top: 1rem;
 }
 
 #navbar {
     position: fixed;
-    z-index: 1;
 }
-
-/* .active-nav-link {
-    color: rgb(201, 117, 117) !important;
-} */

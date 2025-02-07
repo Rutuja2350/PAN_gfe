@@ -5,16 +5,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import './Header.css';
 
 const Header = ({ activeSection, onNavClick }) => {
+
     return (
         <Navbar collapseOnSelect expand="lg" id="navbar" className="navbar-header">
             <Container className="nav-container">
-                {/* <Navbar.Brand href="\">PAN</Navbar.Brand> */}
+                <Navbar.Brand href="\">PAN</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav" className="">
+                <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="space-x-12">
                         <Nav.Link
                             onClick={() => onNavClick('WhatWeDo')}
-                            className={activeSection === 'WhatWeDo nav_link' ? 'active-nav-link nav_link' : ''}
+                            className={activeSection === 'WhatWeDo' ? 'active-nav-link' : ''}
                         >
                             What We Do?
                         </Nav.Link>

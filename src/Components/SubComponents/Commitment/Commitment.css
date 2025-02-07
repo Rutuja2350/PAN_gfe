@@ -1,14 +1,7 @@
-/* .homepage_commitment {
-    background-color: #99A751;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    height: 100vh;
-    overflow-y: hidden;
-} */
-
 .commitment {
     background-color: black;
     padding-top: 7rem;
+    padding-bottom: 4rem;
     font-size: 1.4rem;
     color: white;
     height: 100vh;
@@ -27,6 +20,7 @@
     padding-left: 5rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    width: 70%;
     font-size: 1.5rem;
     font-weight: 300;
 }

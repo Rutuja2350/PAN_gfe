@@ -1,17 +1,10 @@
-/* .homepage_associates {
-    background-color: #C18C5D;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    height: 100%;
-} */
-
 .associates {
     background-color: black;
     padding-top: 8rem;
     padding-bottom: 4rem;
-    height: 100%;
     font-size: 1.4rem;
     color: white;
+    height: 100vh;
 }
 
 .associate_heading {
