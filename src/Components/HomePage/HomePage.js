@@ -16,24 +16,32 @@ const HomePage = () => {
         setActiveSection(section);
     };
 
+    const sectionColors = {
+        Home: 'black',
+        WhatWeDo: '#7496B6',
+        AboutUs: '#C38888',
+        Associates: '#C18C5D',
+        Commitment: '#99A751',
+        ContactUs: '#938A9E',
+        Experience: '#A9ABA6',
+        Expertise: '#97A77E',
+    };
+
     return (
-        <div>
-            <div>
-                <Header activeSection={activeSection} onNavClick={handleNavClick} />
-            </div>
-            {/* <div className={activeSection ? 'page' : 'home_page'}> */}
-            <div className="page">
-                {/* {activeSection === 'Home' && <Home />} */}
-                {activeSection === 'WhatWeDo' && <WhatWeDo />}
-                {activeSection === 'AboutUs' && <AboutUs />}
-                {activeSection === 'Associates' && <Associates />}
-                {activeSection === 'Commitment' && <Commitment />}
-                {activeSection === 'ContactUs' && <ContactUs />}
-                {activeSection === 'Experience' && <Experience />}
-                {activeSection === 'Expertise' && <Expertise />}
-            </div>
+        <div
+            className="outer_div min-h-screen transition-colors duration-500"
+            style={{ backgroundColor: sectionColors[activeSection] || 'black' }}
+        >
+            <Header activeSection={activeSection} onNavClick={handleNavClick} />
+            {activeSection === 'WhatWeDo' && <WhatWeDo />}
+            {activeSection === 'AboutUs' && <AboutUs />}
+            {activeSection === 'Associates' && <Associates />}
+            {activeSection === 'Commitment' && <Commitment />}
+            {activeSection === 'ContactUs' && <ContactUs />}
+            {activeSection === 'Experience' && <Experience />}
+            {activeSection === 'Expertise' && <Expertise />}
         </div>
-    )
-}
+    );
+};
 
 export default HomePage;

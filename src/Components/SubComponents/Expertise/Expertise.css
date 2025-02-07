@@ -1,37 +1,29 @@
 .expertise {
-    padding: 1rem;
+    background-color: black;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
     height: 100vh;
-    overflow-y: hidden;
+    font-size: 1.4rem;
+    color: white;
 }
 
-.expertise_heading {
+.heading_expertise {
+    font-size: 4rem;
     justify-self: center;
-    padding-top: 7rem;
-    font-size: 3.5rem;
-    font-weight: 600;
-    height: fit-content;
-    color: #c73d3d;
-    font-family: "Roboto Condensed", sans-serif !important;
+}
 
+.grey_leaf {
+    padding-left: 25%;
+}
+
+.grey_leaf_img {
+    height: 25rem;
 }
 
 .expertise_content {
-    padding: 5rem;
+    padding-top: 3rem;
     font-size: 1.6rem;
     font-weight: 500;
-}
-
-.img_right1 {
-    height: 15rem;
-}
-
-.img_right2 {
-    height: 20rem;
-}
-
-.img_left2 {
-    margin-top: 5rem;
-    height: 20rem;
 }
 
 @keyframes extSlideIn {

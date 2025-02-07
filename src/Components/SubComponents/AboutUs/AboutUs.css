@@ -1,38 +1,40 @@
 .about {
-    overflow-y: scroll;
-    padding-bottom: 6rem;
+    background-color: black;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    font-size: 1.4rem;
+    color: white;
+    height: 100vh;
 }
 
 .about_heading {
+    font-size: 6rem;
     justify-self: center;
-    padding-top: 6rem;
-    font-size: 3.5rem;
-    font-weight: 600;
-    width: 100vh;
-    overflow-x: hidden;
-    height: fit-content;
-    color: #c73d3d;
-    font-family: "Roboto Condensed", sans-serif !important;
+    padding: 3rem;
+    padding-bottom: 0;
+    margin-right: 10rem;
+}
+
+.left_column {
+    width: 150%;
+}
+
+.right_column {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1.4rem;
 }
 
 .about_content {
-    /* height: 100%; */
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
-.about_img {
-    padding-left: 4rem;
+.pink_leaf {
+    height: 20rem;
 }
 
 .about_img>img {
     border-radius: 15%;
-}
-
-.about_points {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    font-size: 1.4rem;
-    font-weight: 500;
 }
 
 @keyframes abtSlideIn {
